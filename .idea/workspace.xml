@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1956a769-46af-4e3d-8a94-6f05a9bc5f7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aplusb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LintCode-Go.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LintCode-Go.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lintcode_go.go" beforeDir="false" />
-    </list>
+    <list default="true" id="1956a769-46af-4e3d-8a94-6f05a9bc5f7c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +75,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
