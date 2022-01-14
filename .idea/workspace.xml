@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b44dc20d-43de-406c-843f-aa242259fabd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/flattenBinaryTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/minPathSum.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
