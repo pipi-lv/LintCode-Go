@@ -2,6 +2,6 @@ package leetcode
 
 import "testing"
 
-func TestName(t *testing.T) {
-	t.Log(minimumDistance([][]int{{3, 10}, {5, 15}, {10, 2}, {4, 4}}))
+func TestAccountsMerge(t *testing.T) {
+	t.Log(accountsMerge([][]string{{"John", "johnsmith@mail.com", "john_newyork@mail.com"}, {"John", "john00@mail.com", "johnsmith@mail.com"}, {"Mary", "mary@mail.com"}, {"John", "johnnybravo@mail.com"}}))
 }
