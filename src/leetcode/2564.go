@@ -71,7 +71,7 @@ func substringXorQueries(s string, queries [][]int) [][]int {
 
 		// 预处理 30 位的原因是因为数据量最大是 10^9，对应二进制最多 30 位
 		for r, x := i, 0; r < len(s) && r < i+30; r++ {
-			x = x<<1 | int(s[r]&1) // 这步很精妙
+			x = x<<1 | int(s[r]&1) // 这步很精妙 ‘0’&1=0 ‘1’&1=1 实现了字符串转数字
 			if _, ok := dict[x]; !ok {
 				dict[x] = []int{i, r}
 			}
