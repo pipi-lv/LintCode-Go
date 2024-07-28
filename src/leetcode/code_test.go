@@ -13,3 +13,7 @@ func TestMinimumTime(t *testing.T) {
 func TestMaximumSum(t *testing.T) {
 	t.Log(maximumSum([]int{100, 30, 1, 987, 400, 200, 9}))
 }
+
+func TestGetSmallestString(t *testing.T) {
+	t.Log(getSmallestString("rn", 9))
+}
