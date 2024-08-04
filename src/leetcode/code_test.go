@@ -17,3 +17,7 @@ func TestMaximumSum(t *testing.T) {
 func TestGetSmallestString(t *testing.T) {
 	t.Log(getSmallestString("rn", 9))
 }
+
+func TestMaxPointsInsideSquare(t *testing.T) {
+	t.Log(maxPointsInsideSquare([][]int{{2, 2}, {-1, -2}, {-4, 4}, {-3, 1}, {3, -3}}, "abdca"))
+}
