@@ -1,5 +1,7 @@
 package leetcode
 
+import "sort"
+
 //给你两个整数数组 nums1 和 nums2。
 //
 //从 nums1 中移除两个元素，并且所有其他元素都与变量 x 所表示的整数相加。如果 x 为负数，则表现为元素值的减少。
@@ -38,8 +40,6 @@ package leetcode
 //nums2.length == nums1.length - 2
 //0 <= nums1[i], nums2[i] <= 1000
 //测试用例以这样的方式生成：存在一个整数 x，nums1 中的每个元素都与 x 相加后，再移除两个元素，nums1 可以与 nums2 相等。
-
-import "sort"
 
 // 自己写的愚蠢方法，暴力搜索
 func minimumAddedInteger(nums1 []int, nums2 []int) int {
