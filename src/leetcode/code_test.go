@@ -21,3 +21,8 @@ func TestGetSmallestString(t *testing.T) {
 func TestMaxPointsInsideSquare(t *testing.T) {
 	t.Log(maxPointsInsideSquare([][]int{{2, 2}, {-1, -2}, {-4, 4}, {-3, 1}, {3, -3}}, "abdca"))
 }
+
+func TestIsArraySpecial(t *testing.T) {
+	t.Log(isArraySpecialII_1([]int{1, 4}, [][]int{{0, 1}}))
+	t.Log(isArraySpecialII_2([]int{1, 4}, [][]int{{0, 1}}))
+}
